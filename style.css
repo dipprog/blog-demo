@@ -1,0 +1,32 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 60%;
+    margin: 16px auto;
+    text-align: justify;
+    border: 16px solid rgba(94, 91, 91, 0.3);
+}
+
+div{
+    margin: 16px;
+}
+.left-border{
+    border-left: 4px solid rgba(94, 91, 91, 0.3);
+    padding-left: 4px;
+}
+.left-border::first-letter{
+    font-size: 250%;
+    font-weight: 700;
+    float: left;
+    margin-right: 6px;
+
+}
+hr{
+    background-color: #fff;
+    border-top: 2px dashed #8c8b8b;
+    margin: 16px;
+}
+.date{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #6eafc9;
+}
