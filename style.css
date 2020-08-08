@@ -1,11 +1,15 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    width: 60%;
+    max-width: 700px;
+    width: 80%;
     margin: 16px auto;
     text-align: justify;
     border: 16px solid rgba(94, 91, 91, 0.3);
 }
-
+h2{
+    font-size: 2.0rem;
+    color: #2c3e50;
+}
 div{
     margin: 16px;
 }
@@ -14,7 +18,7 @@ div{
     padding-left: 4px;
 }
 .left-border::first-letter{
-    font-size: 250%;
+    font-size: 2.2rem;
     font-weight: 700;
     float: left;
     margin-right: 6px;
@@ -27,6 +31,6 @@ hr{
 }
 .date{
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 0.2rem;
     color: #6eafc9;
 }
